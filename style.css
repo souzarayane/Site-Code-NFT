@@ -1,0 +1,370 @@
+/******************************************RESET************************************************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+/*************************************************************************************************************/
+body {
+    background: rgb(3,3,4);
+    background: radial-gradient(circle, rgba(3,3,4,1) 0%, rgba(70,53,164,1) 50%, rgba(22,19,41,1) 100%);
+}
+
+#container {
+    width: 1123px;
+    margin: 0 auto;
+}
+
+.botao {
+    width: 155px;
+    height: 36px;
+    color: #030303;
+    font-weight: 600;
+    background-color: #F7FC0E;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/***************************************************NAVBAR****************************************************/
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-img {
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/***********************************MAIN********************************************************/
+#main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#txt-main{
+    width: 531px;
+    height: 201px;
+    margin-top: 85px;
+}
+
+#txt-main h1 {
+    font-size: 56px;
+    color: #fff;
+    line-height: 58px;
+}
+
+#txt-main span {
+    color: #F7FC0E;
+}
+
+#paragrafo-main {
+    width: 466px;
+    height: 96px;
+    color: #fff;
+}
+
+#paragrafo-main p {
+    font-size: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+#paragrafo-main button {
+    margin-top: 26px;
+}
+
+/********************************************IMAGE****************************************************/
+#image {
+    width: 542px;
+    height: 451px;
+    border-radius: 8px;
+    background: rgb(222,14,183);
+    background: linear-gradient(209deg, rgba(222,14,183,1) 0%, rgba(54,45,111,1) 47%, rgba(92,87,119,1) 88%);
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image button{
+    width: 100px;
+    height: 30px;
+    background: #5c5777;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 35px;
+    margin-left: -240px;
+}
+
+#image img {
+    margin-top: -156px;
+    margin-bottom: -4px;
+}
+
+#menu {
+    width: 100%;
+    height: 135px;
+    background: rgb(47,48,47);
+    background: linear-gradient(220deg, rgba(47,48,47,1) 0%, rgba(92,91,91,1) 58%, rgba(47,48,47,1) 100%);
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+#menu h4 {
+    color: #fff;
+    font-size: 20px;
+}
+
+#menu p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+#lg {
+    display: flex;
+    align-items: center;
+}
+
+#lg img {
+    margin-top: 8px;
+    margin-left: -12px;
+}
+
+#lg p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#lg button {
+    margin-top: -30px;
+    margin-left: 225px;
+    width: 155px;
+    height: 36px;
+    color: #030303;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #F7FC0E;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/********************************************************RANKING**********************************************/
+#ranking {
+    margin-top: 140px;
+    width: 1123px;
+    height: 130px;
+    background: #353045;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: #fff; 
+}
+
+#ranking img {
+    margin: 60px;
+    height: 70px;
+}
+
+.divisao {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin: 0 20px 0 20px;
+}
+
+.divisao h3 {
+    font-family: 'Jura', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.divisao p {
+    font-size: 12px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.border {
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right, #E025CE, #4AED52, #BD24E6);
+    border-image-slice: 1;
+}
+
+/***********************************************NFT***************************************************************/
+#nft {
+    text-align: center;
+    margin-top: 70px;   
+}
+
+#nft h2 {
+    margin-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+
+#nft-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nft img {
+    width: 300px;
+    height: 430px;
+    margin-left: 25px;
+}
+
+/***************************************************COLECIONADORES******************************************************/
+#colecionadores {
+    color: #fff;
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cabecalho h2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+#colecionadores th { 
+    text-align: left;
+    font-size: 24px;
+    font-weight: 400;
+    /* width: 40%; */
+}
+
+#colecionadores td {
+    margin-top: 25px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+}
+
+.avatar p {
+   margin-left: 15px;
+   font-size: 18px;
+   font-weight: 400;
+}
+
+.porcentagens {
+    color: #f9fd03;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.linha-maior {
+    width: 55%;
+}
+
+.linha-media {
+    width: 20%;
+}
+
+.linha-menor {
+    width: 5%;
+}
+
+/*****************************************************PERGUNTAS***********************************************************/
+#perguntas {
+    color: #fff;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+#perguntas h2 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+#perguntas p {
+    margin-bottom: 18px;
+}
+
+#perguntas i {
+    margin-left: 657px;
+    cursor: pointer;
+}
+
+#perguntas img {
+    width: 1100px;
+}
+
+/**************************************************FOOTER************************************************************/
+footer {
+    height: 180px;
+}
+
+.icones {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    
+}
+
+.icones i {
+    margin-top: 80px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/**************************************************RESPONSIVE******************************************************/
+@media screen and (max-width: 320px) {
+    #container {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    #navbar {
+        display: none;
+    }
+
+    #image {
+        display: none;
+    }
+
+    #ranking {
+        width: 312px;
+    }
+}
